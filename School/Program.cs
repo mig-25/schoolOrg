@@ -2,11 +2,13 @@
 
 namespace School
 {
-    class Program
+    class MainClass : Student
     {
-        static void Main(string[] args)
+
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Teacher.mainmenu();
         }
+
     }
 }
